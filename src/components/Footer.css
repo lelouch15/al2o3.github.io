@@ -1,0 +1,35 @@
+/* 统一页脚样式 */
+.unified-footer {
+  width: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-container {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.unified-footer p {
+  margin: 0;
+  font-size: 1em;
+  opacity: 0.9;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .unified-footer {
+    padding: 1.5rem 0;
+  }
+  
+  .footer-container {
+    padding: 0 15px;
+  }
+  
+  .unified-footer p {
+    font-size: 0.9em;
+  }
+}

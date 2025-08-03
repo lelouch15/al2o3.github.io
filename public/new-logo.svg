@@ -1,0 +1,47 @@
+<svg width="270" height="60" viewBox="0 0 270 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景渐变 -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆角矩形 -->
+  <rect width="270" height="60" rx="8" ry="8" fill="url(#bgGradient)"/>
+  
+  <!-- 氧化铝分子结构图标 -->
+  <g transform="translate(15, 15)">
+    <!-- 中心原子 -->
+    <circle cx="15" cy="15" r="6" fill="url(#iconGradient)" stroke="white" stroke-width="1.5"/>
+    
+    <!-- 周围原子 -->
+    <circle cx="5" cy="8" r="3" fill="#93c5fd" stroke="white" stroke-width="1"/>
+    <circle cx="25" cy="8" r="3" fill="#93c5fd" stroke="white" stroke-width="1"/>
+    <circle cx="5" cy="22" r="3" fill="#93c5fd" stroke="white" stroke-width="1"/>
+    <circle cx="25" cy="22" r="3" fill="#93c5fd" stroke="white" stroke-width="1"/>
+    
+    <!-- 连接线 -->
+    <line x1="15" y1="15" x2="8" y2="10" stroke="white" stroke-width="1.5" opacity="0.8"/>
+    <line x1="15" y1="15" x2="22" y2="10" stroke="white" stroke-width="1.5" opacity="0.8"/>
+    <line x1="15" y1="15" x2="8" y2="20" stroke="white" stroke-width="1.5" opacity="0.8"/>
+    <line x1="15" y1="15" x2="22" y2="20" stroke="white" stroke-width="1.5" opacity="0.8"/>
+  </g>
+  
+  <!-- 文字部分 -->
+  <text x="65" y="25" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    氧化铝数据中心
+  </text>
+  <text x="65" y="42" font-family="Microsoft YaHei, Arial, sans-serif" font-size="10" fill="#e2e8f0">
+    Aluminum Oxide Data Center
+  </text>
+  
+  <!-- 装饰元素 -->
+  <circle cx="240" cy="20" r="2" fill="#60a5fa" opacity="0.6"/>
+  <circle cx="250" cy="30" r="1.5" fill="#93c5fd" opacity="0.8"/>
+  <circle cx="235" cy="40" r="1" fill="#dbeafe" opacity="0.9"/>
+</svg>
